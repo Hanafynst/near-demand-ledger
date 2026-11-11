@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NEAR Demand Ledger — Investment Thesis Dashboard</title>
+<style>body{font-family:system-ui,sans-serif;max-width:920px;margin:2em auto;padding:0 1em;line-height:1.5}figure{margin:1.5em 0}figcaption{font-size:.9em;color:#444}.stat{font-size:1.15em}td{padding:.15em .8em .15em 0}</style>
+</head>
+<body>
+<h1>NEAR Demand Ledger</h1>
+<p>An investment thesis for NEAR, tested against public data. Built for NEAR HACKATHON
+(Build Beyond Boundaries), track: Investment Thesis. Hypothesis: settlement volume through
+NEAR Intents grows ahead of the activity visible on mainnet, so it reads as a leading
+indicator of demand for the network. Every figure on this page is computed by
+<code>scripts/analyze.py</code> from the snapshots in <code>data/</code>; rebuild with
+<code>bash rebuild.sh</code>. Daily series run to 2026-11-10; the
+DefiLlama window ends 2026-11-09 (the last two days are dropped, they are partial).</p>
+
+<h2>Pillar 1: Real staking yield</h2>
+<table>
+<tr><td>Validators (current epoch, RPC)</td><td class="stat">338</td></tr>
+<tr><td>Total staked</td><td class="stat">581,233,869 NEAR (44.3% of supply)</td></tr>
+<tr><td>Top 10 validators' share of stake</td><td class="stat">36.3%</td></tr>
+<tr><td>Protocol max inflation (on-chain config)</td><td class="stat">2.5% per year</td></tr>
+<tr><td>Measured net supply inflation, last 365 days</td><td class="stat">2.48%</td></tr>
+<tr><td>Staking APY, last completed epoch (NEARBlocks)</td><td class="stat">4.91%</td></tr>
+<tr><td>Real yield (APY adjusted for net inflation)</td><td class="stat">2.37%</td></tr>
+</table>
+<figure><img src="charts/inflation.svg" alt="Net supply inflation chart"><figcaption>Net supply inflation, annualized from month-end total supply (NEARBlocks daily panel). The step down from about 5% to about 2.5% is the protocol inflation cut reaching mainnet. Source: <code>data/nearblocks_daily.csv</code>.</figcaption></figure>
+<p>Stakers earn about 4.91% nominal while supply grows 2.48%, so a staker's share of the network grows roughly 2.37% a year. That part of the demand story holds: staking pays a real, positive return without new buyers.</p>
+
+<h2>Pillar 2: Active accounts (Metcalfe)</h2>
+<table>
+<tr><td>Daily active accounts, 30-day average</td><td class="stat">58,223</td></tr>
+<tr><td>Same window a year ago</td><td class="stat">262,972</td></tr>
+<tr><td>Daily transactions, 30-day average</td><td class="stat">662,520</td></tr>
+<tr><td>Same window a year ago</td><td class="stat">4,444,290</td></tr>
+<tr><td>New accounts per day, 30-day average</td><td class="stat">9,573</td></tr>
+<tr><td>Same window a year ago</td><td class="stat">220,745</td></tr>
+<tr><td>Metcalfe fit, monthly, log market cap on log active accounts</td><td class="stat">slope 0.21, R² 0.28 (73 months)</td></tr>
+</table>
+<figure><img src="charts/actives.svg" alt="Active accounts chart"><figcaption>Daily active accounts, monthly average (NEARBlocks). Activity peaked in 2024 and has fallen since; the level shift between March and April 2026 (3,479,269 to 946,610 transactions a day) is flagged in THESIS.md as an unresolved break in the series.</figcaption></figure>
+<figure><img src="charts/txns.svg" alt="Daily transactions chart"><figcaption>Daily transactions, last 365 days (NEARBlocks daily panel).</figcaption></figure>
+<p>On mainnet's own numbers, usage is shrinking, not growing. Price rose over the same year while active accounts fell by about two thirds. Whatever demand is building for NEAR, this series does not show it.</p>
+
+<h2>Pillar 3: Net supply and fee burn</h2>
+<table>
+<tr><td>Total supply now</td><td class="stat">1,311,369,614 NEAR</td></tr>
+<tr><td>Net new supply, last 365 days</td><td class="stat">31,740,869 NEAR</td></tr>
+<tr><td>Transaction fees, last 365 days</td><td class="stat">596,325 NEAR</td></tr>
+<tr><td>Fees as a share of net new supply</td><td class="stat">1.88%</td></tr>
+</table>
+<figure><img src="charts/fees.svg" alt="Daily fees chart"><figcaption>Transaction fees per day in NEAR (NEARBlocks daily panel). Even if every NEAR of fees were burned, fees would offset only 1.88% of new issuance.</figcaption></figure>
+<p>NEAR is not fee-funded at current usage. Supply growth is a policy variable (the inflation cap), not a market outcome, and fees are too small to change that.</p>
+
+<h2>Pillar 4: Intents and DeFi share</h2>
+<table>
+<tr><td>NEAR Intents volume, 30 full days to 2026-11-09</td><td class="stat">$3,727,751,510</td></tr>
+<tr><td>Average per day</td><td class="stat">$124,258,384</td></tr>
+<tr><td>Average per day, same window a year earlier</td><td class="stat">$77,935,548</td></tr>
+<tr><td>Share of all DEX-classified volume on Near (DefiLlama)</td><td class="stat">92.6%</td></tr>
+<tr><td>Largest native DEX (Rhea), 30 days</td><td class="stat">$288,871,260</td></tr>
+<tr><td>Fees earned by NEAR Intents, 30 days (DefiLlama fees)</td><td class="stat">$5,458,382</td></tr>
+<tr><td>NEAR Intents TVL, all chains / on Near itself</td><td class="stat">$184,004,347 / $91,749,436</td></tr>
+<tr><td>Total value locked on Near (DefiLlama)</td><td class="stat">$169,269,941</td></tr>
+</table>
+<figure><img src="charts/intents.svg" alt="NEAR Intents volume chart"><figcaption>NEAR Intents daily volume as classified by DefiLlama (its Near DEX overview includes NEAR Intents as a protocol). Series starts 2024-12-10. DefiLlama figures come from its adapter, not from our own chain read; the gap between this series and mainnet activity is the subject of THESIS.md.</figcaption></figure>
+<p>Intents is where the growth is. It settles more in a day than the largest native DEX settles in weeks, and it barely registers in mainnet transaction counts, because most settlement happens off the mainnet shards. That is exactly why the two data sets disagree.</p>
+
+<p><a href="../THESIS.md">Read the full thesis (THESIS.md)</a> · <a href="../README.md">README</a></p>
+</body>
+</html>
