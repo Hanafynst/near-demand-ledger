@@ -1,0 +1,1200 @@
+{
+  "currentValidators": 371,
+  "elapsedTimeData": 647007.6003649902,
+  "epochProgressData": 89.8425925925926,
+  "epochStatsCheck": "11002152651461401638123240919",
+  "lastEpochApy": "4.91",
+  "latestBlock": {
+    "height": 222921549,
+    "timestamp": 1793738609454267000
+  },
+  "total": 742,
+  "totalSeconds": 2530,
+  "totalStake": "5.93372642814240027020784486594744e+32",
+  "validatorFullData": [
+    {
+      "index": 0,
+      "poolInfo": {
+        "fee": {
+          "numerator": 1,
+          "denominator": 100
+        },
+        "delegatorsCount": 32344
+      },
+      "accountId": "astro-stakers.poolv1.near",
+      "nextEpoch": {
+        "stake": "33272032161217141142563677536084"
+      },
+      "publicKey": "ed25519:2nPSBCzjqikgwrqUMcuEVReJhmkC91eqJGPGqH9sZc28",
+      "description": {
+        "url": "astrostakers.com",
+        "email": "heyheyhey@astrostakers.com",
+        "twitter": "@astrostakers",
+        "description": "1% fee in perpetuity secured for NEAR community. Run by Silicon Valley engineers for service permanent availability. We drop rhymes, not blocks",
+        "country_code": "AQ"
+      },
+      "currentEpoch": {
+        "stake": "33270925619217119134459443495696",
+        "progress": {
+          "blocks": {
+            "total": 2255,
+            "produced": 2255
+          },
+          "chunks": {
+            "total": 2255,
+            "produced": 2255
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "33275539822720307512547671685973"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "0.00",
+        "cumulativePercent": "5.61",
+        "ownPercentage": "5.61"
+      },
+      "percent": "5.61",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "1,107"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 1,
+      "poolInfo": {
+        "fee": {
+          "numerator": 10,
+          "denominator": 100
+        },
+        "delegatorsCount": 1691
+      },
+      "accountId": "figment.poolv1.near",
+      "nextEpoch": {
+        "stake": "27915183368542662324360483826452"
+      },
+      "publicKey": "ed25519:7RjyY1bRKDqkshbKZtgpQdwsdxou8j9my8g1hPKZ9ngM",
+      "description": null,
+      "currentEpoch": {
+        "stake": "27913093179334048342469037509325",
+        "progress": {
+          "blocks": {
+            "total": 1950,
+            "produced": 1950
+          },
+          "chunks": {
+            "total": 1950,
+            "produced": 1950
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "27915189594007610816773683826452"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "5.61",
+        "cumulativePercent": "10.31",
+        "ownPercentage": "4.70"
+      },
+      "percent": "4.70",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "2,090"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 2,
+      "poolInfo": {
+        "fee": {
+          "numerator": 5,
+          "denominator": 100
+        },
+        "delegatorsCount": 13802
+      },
+      "accountId": "ledgerbyfigment.poolv1.near",
+      "nextEpoch": {
+        "stake": "22971889928412971341231157096840"
+      },
+      "publicKey": "ed25519:Gc2QWoxLN8ryX1Dyje8va4ojt5GpnUQwHyvXZnrAY84A",
+      "description": null,
+      "currentEpoch": {
+        "stake": "22968074415665397701473933025448",
+        "progress": {
+          "blocks": {
+            "total": 1614,
+            "produced": 1614
+          },
+          "chunks": {
+            "total": 1614,
+            "produced": 1614
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "23041343802665968232259882570388"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "10.31",
+        "cumulativePercent": "14.18",
+        "ownPercentage": "3.87"
+      },
+      "percent": "3.87",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "3,816"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 3,
+      "poolInfo": {
+        "fee": {
+          "numerator": 10,
+          "denominator": 100
+        },
+        "delegatorsCount": 3477
+      },
+      "accountId": "staked.poolv1.near",
+      "nextEpoch": {
+        "stake": "21023650657180801531798590817106"
+      },
+      "publicKey": "ed25519:9noQuLD3hC84YJFuTxZrpAuKTzmMbQrxKYG6KL9hKymo",
+      "description": null,
+      "currentEpoch": {
+        "stake": "21019461615609740426136322462901",
+        "progress": {
+          "blocks": {
+            "total": 1467,
+            "produced": 1467
+          },
+          "chunks": {
+            "total": 1467,
+            "produced": 1467
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "21000712919597524814427087847193"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "14.18",
+        "cumulativePercent": "17.72",
+        "ownPercentage": "3.54"
+      },
+      "percent": "3.54",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "4,189"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 4,
+      "poolInfo": {
+        "fee": {
+          "numerator": 5,
+          "denominator": 100
+        },
+        "delegatorsCount": 1199
+      },
+      "accountId": "binancenode1.poolv1.near",
+      "nextEpoch": {
+        "stake": "20130663137319638756357737413112"
+      },
+      "publicKey": "ed25519:Bb7uPEocbsiQwRfPmsiiiM88DodtuYnBDi6dKZ4JZo2N",
+      "description": null,
+      "currentEpoch": {
+        "stake": "20129876800994643581130761469535",
+        "progress": {
+          "blocks": {
+            "total": 1384,
+            "produced": 1384
+          },
+          "chunks": {
+            "total": 1384,
+            "produced": 1384
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "20130663137408574445776037413112"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "17.72",
+        "cumulativePercent": "21.12",
+        "ownPercentage": "3.39"
+      },
+      "percent": "3.39",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "786"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 5,
+      "poolInfo": {
+        "fee": {
+          "numerator": 5,
+          "denominator": 100
+        },
+        "delegatorsCount": 205
+      },
+      "accountId": "bitwise_1.poolv1.near",
+      "nextEpoch": {
+        "stake": "14904989746750363353995670519365"
+      },
+      "publicKey": "ed25519:CkB8YAco8rimZwi6uBF5DT8Tcf3EXAMgTvyhumpDEwCx",
+      "description": null,
+      "currentEpoch": {
+        "stake": "19943140704942240992389987117569",
+        "progress": {
+          "blocks": {
+            "total": 1420,
+            "produced": 1420
+          },
+          "chunks": {
+            "total": 1420,
+            "produced": 1420
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "14904989746896349679164170519365"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "21.12",
+        "cumulativePercent": "24.48",
+        "ownPercentage": "3.36"
+      },
+      "percent": "3.36",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "-",
+        "value": "5,038,150.9582"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 6,
+      "poolInfo": {
+        "fee": {
+          "numerator": 15,
+          "denominator": 100
+        },
+        "delegatorsCount": 233
+      },
+      "accountId": "sumerian.poolv1.near",
+      "nextEpoch": {
+        "stake": "18776398493011926714466031217171"
+      },
+      "publicKey": "ed25519:BLvNwUb1nQWympnmsHTtH7HCMeH6gSaYkjNsdee9AvzR",
+      "description": null,
+      "currentEpoch": {
+        "stake": "18775665056471701150314337355771",
+        "progress": {
+          "blocks": {
+            "total": 1347,
+            "produced": 1347
+          },
+          "chunks": {
+            "total": 1347,
+            "produced": 1347
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "18776398493081772813730531217171"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "24.48",
+        "cumulativePercent": "27.64",
+        "ownPercentage": "3.16"
+      },
+      "percent": "3.16",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "733"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 7,
+      "poolInfo": {
+        "fee": {
+          "numerator": 1,
+          "denominator": 100
+        },
+        "delegatorsCount": 8617
+      },
+      "accountId": "zavodil.poolv1.near",
+      "nextEpoch": {
+        "stake": "17950166444981688673325716749087"
+      },
+      "publicKey": "ed25519:HHARoU1hANWF9hu7YRstDDvgyigBhUeUuqecRVr8dpUz",
+      "description": {
+        "url": "https://zavodil.near.page",
+        "name": "NEAR Zavodil node",
+        "email": "zavodil.ru@gmail.com",
+        "github": "zavodil",
+        "country": "eu",
+        "twitter": "zacodil",
+        "description": "Stake any amount to claim a soul-bound NFT. NFT-holders participate in token giveaways",
+        "country_code": "de"
+      },
+      "currentEpoch": {
+        "stake": "17933730896789004919365015729872",
+        "progress": {
+          "blocks": {
+            "total": 1266,
+            "produced": 1266
+          },
+          "chunks": {
+            "total": 1266,
+            "produced": 1266
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "17967768445366888089603616749086"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "27.64",
+        "cumulativePercent": "30.66",
+        "ownPercentage": "3.02"
+      },
+      "percent": "3.02",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "16,436"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 8,
+      "poolInfo": {
+        "fee": {
+          "numerator": 3,
+          "denominator": 100
+        },
+        "delegatorsCount": 53
+      },
+      "accountId": "bitwise_2.poolv1.near",
+      "nextEpoch": {
+        "stake": "16883117563466614328226711048041"
+      },
+      "publicKey": "ed25519:GXgXiCJKZqts15cicyogD9jrwukksHev8gwiQLXV4X7e",
+      "description": null,
+      "currentEpoch": {
+        "stake": "16882458081487101984385976318512",
+        "progress": {
+          "blocks": {
+            "total": 1206,
+            "produced": 1206
+          },
+          "chunks": {
+            "total": 1206,
+            "produced": 1206
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "15940430555823000088066209399752"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "30.66",
+        "cumulativePercent": "33.51",
+        "ownPercentage": "2.85"
+      },
+      "percent": "2.85",
+      "showWarning": true,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "659"
+      },
+      "stakingStatus": "active",
+      "warning": "Validators 1 - 9 hold a cumulative stake above 33%. Delegating to the validators below improves the decentralization of the network."
+    },
+    {
+      "index": 9,
+      "poolInfo": {
+        "fee": {
+          "numerator": 1,
+          "denominator": 100
+        },
+        "delegatorsCount": 343
+      },
+      "accountId": "liver.pool.near",
+      "nextEpoch": {
+        "stake": "16261118123163228027218372591950"
+      },
+      "publicKey": "ed25519:aiKNxj28QB3P6jSu3FghugQC2edj9zBuwU1Uts1jey2",
+      "description": {
+        "description": "You'll Never Walk Alone",
+        "country_code": "gb"
+      },
+      "currentEpoch": {
+        "stake": "16260482036594892464240506246090",
+        "progress": {
+          "blocks": {
+            "total": 1174,
+            "produced": 1174
+          },
+          "chunks": {
+            "total": 1174,
+            "produced": 1174
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "16256479578128139689590872591950"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "33.51",
+        "cumulativePercent": "36.25",
+        "ownPercentage": "2.74"
+      },
+      "percent": "2.74",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "636"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 10,
+      "poolInfo": {
+        "fee": {
+          "numerator": 10000,
+          "denominator": 10000
+        },
+        "delegatorsCount": 2
+      },
+      "accountId": "cnear-1.poolv1.near",
+      "nextEpoch": {
+        "stake": "15890795726578671049838164919790"
+      },
+      "publicKey": "ed25519:7Gu3MA3K19YPfSmKoCmvHNSTbjB1bJ8nh7WgHAQwh3VF",
+      "description": null,
+      "currentEpoch": {
+        "stake": "15890175006251099670791631794178",
+        "progress": {
+          "blocks": {
+            "total": 1104,
+            "produced": 1104
+          },
+          "chunks": {
+            "total": 1104,
+            "produced": 1104
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "15890795726759182457581764919790"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "36.25",
+        "cumulativePercent": "38.93",
+        "ownPercentage": "2.68"
+      },
+      "percent": "2.68",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "621"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 11,
+      "poolInfo": null,
+      "accountId": "cnear-3.poolv1.near",
+      "nextEpoch": {
+        "stake": "15879141077629224673217353482420"
+      },
+      "publicKey": "ed25519:AZgnwraW9dvNbK7wFCrLHWjaKxf4oqz7bfkUAqGp3Z7k",
+      "description": null,
+      "currentEpoch": {
+        "stake": "15878520812551079715963656988638",
+        "progress": {
+          "blocks": {
+            "total": 1113,
+            "produced": 1113
+          },
+          "chunks": {
+            "total": 1113,
+            "produced": 1113
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "15879141077808501943722053482420"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "38.93",
+        "cumulativePercent": "41.60",
+        "ownPercentage": "2.68"
+      },
+      "percent": "2.68",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "620"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 12,
+      "poolInfo": null,
+      "accountId": "cnear-2.poolv1.near",
+      "nextEpoch": {
+        "stake": "15877691001500062497215188531728"
+      },
+      "publicKey": "ed25519:FkDe52RCJ5kcWk5LGcv2SVTsftu7vBUogcGYqnf6RLCP",
+      "description": null,
+      "currentEpoch": {
+        "stake": "15877070793064234667812451547991",
+        "progress": {
+          "blocks": {
+            "total": 1150,
+            "produced": 1150
+          },
+          "chunks": {
+            "total": 1150,
+            "produced": 1150
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "15877691001680574151785588531728"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "41.60",
+        "cumulativePercent": "44.28",
+        "ownPercentage": "2.68"
+      },
+      "percent": "2.68",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "620"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 13,
+      "poolInfo": {
+        "fee": {
+          "numerator": 5,
+          "denominator": 100
+        },
+        "delegatorsCount": 266
+      },
+      "accountId": "kiln-1.poolv1.near",
+      "nextEpoch": {
+        "stake": "12956349988555736570151268525252"
+      },
+      "publicKey": "ed25519:8ZNqVxH3Ndq44qYjyt3FZjKYEwfXxkHK7fN4bPmobLTP",
+      "description": {
+        "url": "https://kiln.fi",
+        "logo": "https://avatars.githubusercontent.com/u/99018327",
+        "country": "France",
+        "twitter": "@kiln_finance",
+        "country_code": "FR"
+      },
+      "currentEpoch": {
+        "stake": "12942299179865240911606239452277",
+        "progress": {
+          "blocks": {
+            "total": 961,
+            "produced": 961
+          },
+          "chunks": {
+            "total": 961,
+            "produced": 961
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "12965290981298815600323564525252"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "44.28",
+        "cumulativePercent": "46.46",
+        "ownPercentage": "2.18"
+      },
+      "percent": "2.18",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "14,051"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 14,
+      "poolInfo": {
+        "fee": {
+          "numerator": 100,
+          "denominator": 100
+        },
+        "delegatorsCount": 8
+      },
+      "accountId": "svrn-ai.poolv1.near",
+      "nextEpoch": {
+        "stake": "12070832849245345578456040988734"
+      },
+      "publicKey": "ed25519:7Tk8RNCZFMPdhdVKiU3iFgtjs7EMuDMYJBRniiJpiQK2",
+      "description": null,
+      "currentEpoch": {
+        "stake": "12070361342828718676435134437269",
+        "progress": {
+          "blocks": {
+            "total": 852,
+            "produced": 852
+          },
+          "chunks": {
+            "total": 852,
+            "produced": 852
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "12070832849425226994275340988734"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "46.46",
+        "cumulativePercent": "48.49",
+        "ownPercentage": "2.03"
+      },
+      "percent": "2.03",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "472"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 15,
+      "poolInfo": {
+        "fee": {
+          "numerator": 100,
+          "denominator": 100
+        },
+        "delegatorsCount": 5
+      },
+      "accountId": "svrn.pool.near",
+      "nextEpoch": {
+        "stake": "12038726380223526926949376232548"
+      },
+      "publicKey": "ed25519:BBZb5f4m2Q6awf334gaRbsVAbKUbsRCjsdg23VwwKtJ7",
+      "description": null,
+      "currentEpoch": {
+        "stake": "12038256127931304434863634617524",
+        "progress": {
+          "blocks": {
+            "total": 861,
+            "produced": 861
+          },
+          "chunks": {
+            "total": 861,
+            "produced": 861
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "12038726380426792803762176232548"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "48.49",
+        "cumulativePercent": "50.52",
+        "ownPercentage": "2.03"
+      },
+      "percent": "2.03",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "470"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 16,
+      "poolInfo": {
+        "fee": {
+          "numerator": 1,
+          "denominator": 100
+        },
+        "delegatorsCount": 4703
+      },
+      "accountId": "epic.poolv1.near",
+      "nextEpoch": {
+        "stake": "11795364413469888202369130951559"
+      },
+      "publicKey": "ed25519:68HExKDtw1CjGzopZ8fMAMhMSZRVKRhwLzLQmGKtFNzT",
+      "description": {
+        "url": "https://epicsteak.com",
+        "country": "United States",
+        "description": "While SF charges 5.5% for health mandate. This pool only charges 1% to run on bare metal. Enjoy it as medium rare!",
+        "country_code": "us"
+      },
+      "currentEpoch": {
+        "stake": "11946704480966975672211342749402",
+        "progress": {
+          "blocks": {
+            "total": 844,
+            "produced": 844
+          },
+          "chunks": {
+            "total": 844,
+            "produced": 844
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "11790730477745436262843030951558"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "50.52",
+        "cumulativePercent": "52.54",
+        "ownPercentage": "2.01"
+      },
+      "percent": "2.01",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "-",
+        "value": "151,340.0675"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 17,
+      "poolInfo": {
+        "fee": {
+          "numerator": 100,
+          "denominator": 100
+        },
+        "delegatorsCount": 6
+      },
+      "accountId": "svrn-luganodes.pool.near",
+      "nextEpoch": {
+        "stake": "11450962923151395384749477973889"
+      },
+      "publicKey": "ed25519:6vLGUL4XVVcsSa8DP6hu1ZoXQJaT9nLhEJ7LXs86zKsQ",
+      "description": null,
+      "currentEpoch": {
+        "stake": "11450515629831278899001967455256",
+        "progress": {
+          "blocks": {
+            "total": 795,
+            "produced": 795
+          },
+          "chunks": {
+            "total": 795,
+            "produced": 795
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "11396442923356007580493877973889"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "52.54",
+        "cumulativePercent": "54.47",
+        "ownPercentage": "1.93"
+      },
+      "percent": "1.93",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "447"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 18,
+      "poolInfo": {
+        "fee": {
+          "numerator": 3,
+          "denominator": 100
+        },
+        "delegatorsCount": 17
+      },
+      "accountId": "nearvana.poolv1.near",
+      "nextEpoch": {
+        "stake": "10450723755011858453742612246328"
+      },
+      "publicKey": "ed25519:6MwUEw3mvuxkThHoahzK9R9kvStTf9dDjFubVi3P4rkb",
+      "description": null,
+      "currentEpoch": {
+        "stake": "10450315532727950127670215262853",
+        "progress": {
+          "blocks": {
+            "total": 707,
+            "produced": 707
+          },
+          "chunks": {
+            "total": 707,
+            "produced": 707
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "10450723755101417036458012246328"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "54.47",
+        "cumulativePercent": "56.23",
+        "ownPercentage": "1.76"
+      },
+      "percent": "1.76",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "408"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 19,
+      "poolInfo": {
+        "fee": {
+          "numerator": 3,
+          "denominator": 100
+        },
+        "delegatorsCount": 799
+      },
+      "accountId": "stake1.poolv1.near",
+      "nextEpoch": {
+        "stake": "10428406096740744649568771531943"
+      },
+      "publicKey": "ed25519:7EiVt9i7SmULDKEnAXBFSMzwUmZdxUYDFkP73MZuCH1h",
+      "description": null,
+      "currentEpoch": {
+        "stake": "10427998746268443055822903683133",
+        "progress": {
+          "blocks": {
+            "total": 714,
+            "produced": 714
+          },
+          "chunks": {
+            "total": 714,
+            "produced": 714
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "10428406096899377624337471531943"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "56.23",
+        "cumulativePercent": "57.99",
+        "ownPercentage": "1.76"
+      },
+      "percent": "1.76",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "407"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 20,
+      "poolInfo": {
+        "fee": {
+          "numerator": 100,
+          "denominator": 100
+        },
+        "delegatorsCount": 5
+      },
+      "accountId": "svrn_bitwise.poolv1.near",
+      "nextEpoch": {
+        "stake": "10408906830994451203337500902140"
+      },
+      "publicKey": "ed25519:EoWPts6rYPnnEWwCnEAaBt1DdUSxqycL6ic8o1Ff3vXw",
+      "description": null,
+      "currentEpoch": {
+        "stake": "10408500242110231119269477153201",
+        "progress": {
+          "blocks": {
+            "total": 664,
+            "produced": 664
+          },
+          "chunks": {
+            "total": 664,
+            "produced": 664
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "10408906831189128851992000902140"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "57.99",
+        "cumulativePercent": "59.74",
+        "ownPercentage": "1.75"
+      },
+      "percent": "1.75",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "407"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 21,
+      "poolInfo": {
+        "fee": {
+          "numerator": 20,
+          "denominator": 100
+        },
+        "delegatorsCount": 7
+      },
+      "accountId": "metapool01.pool.near",
+      "nextEpoch": {
+        "stake": "9189574037815493048283686425777"
+      },
+      "publicKey": "ed25519:9mZg1Evg2iFeb5vWq4K1EndFevM4FoaYmyp6p3ismStG",
+      "description": null,
+      "currentEpoch": {
+        "stake": "9189223193722989219825985712941",
+        "progress": {
+          "blocks": {
+            "total": 597,
+            "produced": 597
+          },
+          "chunks": {
+            "total": 597,
+            "produced": 597
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "9189574037915825484812486425777"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "59.74",
+        "cumulativePercent": "61.29",
+        "ownPercentage": "1.55"
+      },
+      "percent": "1.55",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "351"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 22,
+      "poolInfo": {
+        "fee": {
+          "numerator": 7,
+          "denominator": 100
+        },
+        "delegatorsCount": 873
+      },
+      "accountId": "p2p-org.poolv1.near",
+      "nextEpoch": {
+        "stake": "8006466699712963813125277482618"
+      },
+      "publicKey": "ed25519:J441YAvvYvjWs3aVzjc5KLLWRzmhQTEMaymPyWFkMGeG",
+      "description": {
+        "url": "https://p2p.org/near",
+        "email": "bc@p2p.org",
+        "country": "KY",
+        "twitter": "P2Pvalidator",
+        "description": "P2P Validator helps investors compound their cryptocurrency investments by participating in staking. We offer secure, non-custodial staking services\u00a0across a range of top-tier networks with over $3.2 billion in total assets staked.",
+        "country_code": "ky"
+      },
+      "currentEpoch": {
+        "stake": "8006152072840550750212200750831",
+        "progress": {
+          "blocks": {
+            "total": 529,
+            "produced": 529
+          },
+          "chunks": {
+            "total": 529,
+            "produced": 529
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "8006466700139767037929277482618"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "61.29",
+        "cumulativePercent": "62.64",
+        "ownPercentage": "1.35"
+      },
+      "percent": "1.35",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "315"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 23,
+      "poolInfo": {
+        "fee": {
+          "numerator": 5,
+          "denominator": 100
+        },
+        "delegatorsCount": 586
+      },
+      "accountId": "dragonfly.poolv1.near",
+      "nextEpoch": {
+        "stake": "7906161760611865601216904652981"
+      },
+      "publicKey": "ed25519:6Gj8MRp9KqfdiXa35LJcZnqeBNNEZoYk6ysvpzHaruvq",
+      "description": null,
+      "currentEpoch": {
+        "stake": "7905852949330173331521427775486",
+        "progress": {
+          "blocks": {
+            "total": 530,
+            "produced": 530
+          },
+          "chunks": {
+            "total": 530,
+            "produced": 530
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "7906131733775211511272904652981"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "62.64",
+        "cumulativePercent": "63.97",
+        "ownPercentage": "1.33"
+      },
+      "percent": "1.33",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "309"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    },
+    {
+      "index": 24,
+      "poolInfo": {
+        "fee": {
+          "numerator": 0,
+          "denominator": 100
+        },
+        "delegatorsCount": 2073
+      },
+      "accountId": "allnodes.poolv1.near",
+      "nextEpoch": {
+        "stake": "6816836783964941063490757927126"
+      },
+      "publicKey": "ed25519:AGEeyukQdMtg8EttsU39YLgryhao8yQeVwQTut5bbWdL",
+      "description": {
+        "url": "https://www.allnodes.com/near",
+        "email": "support@allnodes.com",
+        "github": "allnodes",
+        "discord": "https://discord.allnodes.com",
+        "twitter": "allnodes",
+        "telegram": "allnodes",
+        "description": "Reliable non-custodial Validator run by the industry leader - Allnodes",
+        "country_code": "US"
+      },
+      "currentEpoch": {
+        "stake": "6816543341740560299908655967888",
+        "progress": {
+          "blocks": {
+            "total": 485,
+            "produced": 485
+          },
+          "chunks": {
+            "total": 485,
+            "produced": 485
+          }
+        }
+      },
+      "contractStake": null,
+      "afterNextEpoch": {
+        "stake": "6817724784339750753912557927126"
+      },
+      "cumulativeStake": {
+        "accumulatedPercent": "63.97",
+        "cumulativePercent": "65.12",
+        "ownPercentage": "1.15"
+      },
+      "percent": "1.15",
+      "showWarning": false,
+      "stakeChange": {
+        "symbol": "+",
+        "value": "293"
+      },
+      "stakingStatus": "active",
+      "warning": ""
+    }
+  ],
+  "validatorTelemetry": {}
+}

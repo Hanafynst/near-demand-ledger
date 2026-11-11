@@ -1,0 +1,59 @@
+{
+  "snapshot_daily_last_day": "2026-11-10",
+  "daily_rows": 2304,
+  "staking": {
+    "validators": 338,
+    "total_stake_near": 581233869,
+    "total_supply_near": 1311369533,
+    "staked_share_pct": 44.3,
+    "top10_share_pct": 36.3,
+    "max_inflation_pct": 2.5,
+    "last_epoch_apy_pct_nb": 4.91,
+    "net_inflation_365d_pct": 2.48,
+    "real_yield_pct": 2.37,
+    "apy_ceiling_pct": 5.64,
+    "epoch_length_blocks": 43200
+  },
+  "activity": {
+    "metcalfe_months": 73,
+    "metcalfe_slope": 0.21,
+    "metcalfe_r2": 0.28,
+    "actives_30d_avg": 58223,
+    "actives_30d_avg_year_ago": 262972,
+    "txns_30d_avg": 662520,
+    "txns_30d_avg_year_ago": 4444290,
+    "new_accounts_30d_avg": 9573,
+    "new_accounts_30d_avg_year_ago": 220745,
+    "price_snapshot": 3.64,
+    "market_cap_snapshot": 4767791363.0,
+    "total_txns_cumulative": 5479589084,
+    "break_mar2026_txns": 3479269,
+    "break_apr2026_txns": 946610
+  },
+  "supply_fees": {
+    "supply_now_near": 1311369614,
+    "supply_365d_ago_near": 1279628745,
+    "net_new_near_365d": 31740869,
+    "net_inflation_90d_annualized_pct": 2.5,
+    "fees_near_365d": 596325,
+    "fees_near_30d_avg_per_day": 1101,
+    "fees_pct_of_net_issuance": 1.88,
+    "fees_usd_30d_avg_per_day": 5188
+  },
+  "intents_defi": {
+    "source_note": "DefiLlama overview/dexs/near breakdown; last 2 days dropped as partial",
+    "intents_first_day": "2024-12-10",
+    "intents_avg_per_day_30d": 124258384,
+    "intents_sum_30d": 3727751510,
+    "intents_avg_per_day_year_ago_30d": 77935548,
+    "intents_share_of_near_dex_30d_pct": 92.6,
+    "near_dex_total_30d": 4024785541,
+    "rhea_dex_30d": 288871260,
+    "near_tvl_usd": 169269941,
+    "window_end": "2026-11-09",
+    "intents_fees_30d_usd": 5458382,
+    "intents_volume_all_time_usd": 37171767218,
+    "intents_tvl_total_usd": 184004347,
+    "intents_tvl_on_near_usd": 91749436
+  }
+}
